@@ -31,20 +31,20 @@ export default {
                 label : 'Delivery Date',
              },
              {
-                key : 'total',
-                label : 'Total',
-             },
-             {
                 key : 'complete_percentage',
                 label : 'Completed',
              },
              {
-                key : 'invoiced',
-                label : 'Invoiced',
-             },
-             {
                 key : 'outstanding',
                 label : 'Outstanding',
+             },
+             {
+                key : 'total',
+                label : 'Total',
+             },
+             {
+                key : 'invoiced',
+                label : 'Invoiced',
              },
              {
                 key : 'confirmed',
@@ -79,7 +79,7 @@ export default {
             .catch((error) => {
                console.error(error);
             })
-      }
+      },
     },
     mounted () {
       this.timer = setInterval(() => {

@@ -1,6 +1,5 @@
 <template>
   <v-app id="Inspire" :style="{background : $vuetify.theme.themes.dark.background}">
-    <SideBar />
 
     <v-container>
 
@@ -8,7 +7,9 @@
 
       <CallingSheetDataDetail />
 
-      <v-toolbar color="rgba(0,0,0,0)" flat class="mt-n8">
+      
+      <!-- 
+        <v-toolbar color="rgba(0,0,0,0)" flat class="mt-n8">
         <v-toolbar-title>Team Members</v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn rounded small>
@@ -18,176 +19,8 @@
 
       <v-card class=" rounded-lg">
         <v-row>
-          <!--These are the user pictures at the bottom -->
+        
           <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-          <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-          <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-          <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-            <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-            <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-            <v-col cols="12" sm="3">
-            <v-list  subheader two-line> 
-              <v-list-item>
-                <v-badge
-                  bordered
-                  bottom
-                  color="#49D9A0"
-                  dot
-                  offset-x="28"
-                  offset-y="22">
-                  <v-list-item-avatar >
-                    <v-avatar size="40">
-                      <v-img src="https://cdn.vuetifyjs.com/images/lists/2.jpg"></v-img>
-                    </v-avatar>
-                  </v-list-item-avatar>
-                </v-badge>
-                <v-list-item-content>
-                  <v-list-item-title >AAE Ideapro</v-list-item-title>
-                  <v-list-item-subtitle>32 Story point</v-list-item-subtitle>
-                </v-list-item-content>
-              </v-list-item>
-            </v-list>
-          </v-col>
-
-            <v-col cols="12" sm="3">
             <v-list  subheader two-line> 
               <v-list-item>
                 <v-badge
@@ -212,7 +45,7 @@
           </v-col>
         </v-row>
       </v-card>
-    
+    -->
      
 
     </v-container>
@@ -220,7 +53,7 @@
 </template>
 
 <script>
-  import SideBar from '@/components/SideBar.vue';
+ // import SideBar from '@/components/SideBar.vue';
   import CallingSheetData from '@/components/CallingSheetData.vue';
   import CallingSheetDataDetail from '@/components/CallingSheetDataDetail.vue';
 
@@ -266,7 +99,6 @@
     }),
 
     components: {
-    SideBar,
     CallingSheetData,
     CallingSheetDataDetail
 },

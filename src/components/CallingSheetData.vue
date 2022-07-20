@@ -3,17 +3,17 @@
         <v-container>
           <v-row class="space">
 
-            <v-col cols="4"  sm="2">
+            <v-col cols="5"  sm="2">
 
                     <v-item v-slot="{ active, toggle }" > 
                     <v-card 
                         style="background: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB)"
-                        class="d-flex align-center rounded-xl mr-n2"
+                        class="d-flex align-center rounded-xl"
                         dark
                         height="75"
                         @click="toggle">
-                            <v-list-item three-line  class="mt-3 ml-0.5">
-                                <div class="mb-4 mr-2">                     
+                            <v-list-item three-line class="mt-3 ml-0.5">
+                                <div class="mb-4">                     
                                     <v-icon  x-large :color="'white'">fa-solid fa-droplet</v-icon>                  
                                 </div> 
                                 <v-list-item-title class="headline mb-1" :class="active ? 'white--text' : 'black--text'">
@@ -22,7 +22,7 @@
                             </v-list-item>             
                         </v-card>
                     </v-item>
-                    <v-btn id="todaydate" color="49D9a0" text class="ml-10">
+                    <v-btn id="todaydate" color="49D9a0" text class="ml-5">
                         {{currentDateTime()}}
                     </v-btn>
   
